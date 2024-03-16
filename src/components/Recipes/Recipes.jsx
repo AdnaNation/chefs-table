@@ -10,8 +10,8 @@ const Recipes = () => {
         .then(data => setRecipes(data))
     },[])
     return (
-        <div>
-            <h1>Recipes: {recipes.length}</h1>
+        <div className="lg:w-2/3 md:w-2/3 grid lg:grid-cols-2  md:grid-cols-2 gap-2 mt-4">
+           
             {
                 recipes.map(recipe => <Recipe 
                     key={recipe.recipe_id} 

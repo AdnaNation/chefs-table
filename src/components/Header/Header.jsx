@@ -44,7 +44,7 @@ const Header = () => {
         </div>
         </div>
 
-        <div className="hero lg:h-[600px]" style={{backgroundImage: `url(${cover})`}}>
+        <div className="hero lg:h-[600px] overflow-hidden rounded-xl" style={{backgroundImage: `url(${cover})`}}>
   <div className=" bg-opacity-40"></div>
   <div className="hero-content text-center text-neutral-content">
     <div className="max-w-4xl text-white">

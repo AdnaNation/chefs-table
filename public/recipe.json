@@ -5,7 +5,7 @@
         "recipe_name": "Chicken Curry",
         "short_description": "A delicious and flavorful chicken curry.",
         "ingredients": ["550 gm chicken", "120 ml soya sauce", "300 gm basil leaf", "400 gm mushroom"],
-        "preparing_time": "45 min",
+        "preparing_time": 45,
         "calories": 450
       },
       {
@@ -14,7 +14,7 @@
         "recipe_name": "Pasta Carbonara",
         "short_description": "Creamy pasta with bacon and cheese.",
         "ingredients": ["300 gm pasta", "200 gm bacon", "100 ml heavy cream", "100 gm parmesan cheese"],
-        "preparing_time": "25 min",
+        "preparing_time": 25,
         "calories": 580
       },
       {
@@ -23,7 +23,7 @@
         "recipe_name": "Caesar Salad",
         "short_description": "A classic Caesar salad with crispy croutons.",
         "ingredients": ["1 head romaine lettuce", "100 gm croutons", "50 gm parmesan cheese", "50 ml Caesar dressing"],
-        "preparing_time": "15 min",
+        "preparing_time": 15,
         "calories": 320
       },
       {
@@ -32,16 +32,16 @@
         "recipe_name": "Cheeseburger",
         "short_description": "A juicy cheeseburger with all the fixings.",
         "ingredients": ["200 gm ground beef", "2 burger buns", "50 gm cheddar cheese", "Lettuce, tomato, onion for topping"],
-        "preparing_time": "20 min",
+        "preparing_time": 20,
         "calories": 550
       },
       {
         "recipe_img": "https://i.ibb.co/s6YbBVN/margherita-pizza.jpg",
         "recipe_id": "5",
         "recipe_name": "Margherita Pizza",
-        "short_description": "A simple yet delicious pizza topped with tomato sauce and mozzarella.",
+        "short_description": "A simple yet delicious pizza.",
         "ingredients": ["300 gm pizza dough", "100 gm tomato sauce", "200 gm mozzarella cheese", "Fresh basil leaves for topping"],
-        "preparing_time": "30 min",
+        "preparing_time": 30,
         "calories": 380
       },
       {
@@ -50,7 +50,7 @@
         "recipe_name": "Tomato Soup",
         "short_description": "A comforting and flavorful tomato soup.",
         "ingredients": ["500 gm tomatoes", "1 onion", "2 cloves garlic", "500 ml vegetable broth"],
-        "preparing_time": "35 min",
+        "preparing_time": 35,
         "calories": 180
       }
     ]
