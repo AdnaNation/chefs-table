@@ -1,7 +1,8 @@
+import PropTypes from 'prop-types';
 import { useEffect, useState } from "react";
 import Recipe from "../Recipe/Recipe";
 
-const Recipes = () => {
+const Recipes = ({cookingHandler}) => {
     const [recipes, setRecipes] = useState([])
 
     useEffect(()=>{
@@ -16,6 +17,7 @@ const Recipes = () => {
                 recipes.map(recipe => <Recipe 
                     key={recipe.recipe_id} 
                     recipe={recipe}
+                    cookingHandler={cookingHandler}
                     ></Recipe>)
 
             }
@@ -23,5 +25,9 @@ const Recipes = () => {
         </div>
     );
 };
+
+Recipes.propTypes={
+    cookingHandler: PropTypes.func
+}
 
 export default Recipes;
